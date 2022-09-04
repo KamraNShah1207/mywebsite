@@ -1,0 +1,688 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*Fonts*/
+
+@font-face {
+    src: url(fonts/segoeui.ttf);
+    font-family: SG;
+}
+
+@font-face {
+    src: url(fonts/tcb.ttf);
+    font-family: tcb;
+}
+
+@font-face {
+    src: url(fonts/tcm.ttf);
+    font-family: tc;
+}
+
+/*My code*/
+/*Header*/
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 114px;
+} 
+
+header .header {
+    font-family: Rockwell;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+   display: inline-block;
+   float: left; 
+   list-style: none;
+   padding: 0 7px;
+}
+
+header nav ul a {
+    font-family: SG;
+    font-size: 14px;
+    color: black; 
+}
+
+/*main*/
+.image {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url('img/top.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.orange {
+    width: 100%;
+    padding: 0 0 20px 0;
+    background-color: #FF8409;
+}
+
+.orange article h1 {
+    font-size: 35px;
+    font-family: times-new-roman;
+    font-weight: bolder;
+    text-align: center;
+    word-break: break-word;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.orange article h2 {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 70px;
+    text-align: justify;
+    color: white;
+    font-family: tc;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.orange article div {
+    width: 150px;
+    height: 40px;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #707070;
+    margin: auto;
+    line-height: 40px;
+}
+
+.orange article div a {
+    font-family: times-new-roman;
+    font-size: 18px;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #DADADA;
+}
+
+.main h2 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: tcb;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.main p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.main p a {
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.main .i1 {
+    width: 76%;
+    padding-top: 76%;
+    background-image: url('img/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.main .i2 {
+    width: 76%;
+    padding-top: 76%;
+    background-image: url('img/2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.main .i3 {
+    width: 76%;
+    padding-top: 76%;
+    background-image: url('img/3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/*footer*/
+
+.f1 {
+    width: 100%;
+    padding: 50px 0 40px 0;
+    background-color: #161515;
+}
+
+.f1 h2 {
+    font-size: 25px;
+    font-family: tc;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.f1 p {
+    font-size: 15px;
+    font-family: tc;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+
+.f2 {
+    width: calc(100% - 100px);
+    padding: 20px 50px 0px 50px;
+    background-color: #2B2B2B;
+    overflow: hidden;
+}
+
+.f2 .left {
+    display: none;
+}
+
+.f2 ul {
+    width: fit-content;
+    float: left;
+    padding-right: 40px;
+}
+
+.f2 ul li {
+    display: block; 
+    list-style: none;
+}
+
+.f2 ul li a {
+    font-family: tc;
+    font-size: 40px;
+    color: white;
+    line-height: 62px;
+}
+
+.bgimg {
+    margin-top: 3px;
+    width: 48px;
+    float: right;
+}
+
+.bgimg img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.p1 {
+    text-align: center;
+    font-family: calibri;
+    color: white;
+    font-size: 20px;
+}
+
+footer div {
+    background-color: #2B2B2B;
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+
+.p2 {
+    display: none;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) {
+
+* {
+    background-color: #A3ACCD;
+}
+
+header {
+    height: 107px;
+}
+
+header .header {
+    font-size: 30px;
+    margin-top: 45px;
+    line-height: 27px;
+    text-align: left;
+    padding: 0px 60px 0px 25px;
+    float: left;
+}
+header nav ul {
+    margin: 35px 0 25px;
+    float: left;
+}
+
+header nav ul li {
+   float: left; 
+   padding: 0 23px 0 0;
+}
+
+header nav ul a { 
+    line-height: 47px;
+}
+
+/*main*/
+.image {
+    width: 69.6%;
+    padding-top: 69.6%;
+    margin: auto;
+}
+
+.orange {
+    width: 69.6%;
+    margin: auto;
+}
+
+.orange article h1 {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.orange article h2 {
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+.orange article div {
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.orange article div a {
+    font-family: times-new-roman;
+    font-size: 20px;
+}
+
+.main {
+    width: 69.6%;
+    padding: 15px 0 5px;
+    margin: auto;
+}
+
+.main h2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 48px;
+}
+
+.main p {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.main p a {
+    font-size: 25px;
+}
+
+.main .i1 {
+    width: 73%;
+    padding-top: 73%;
+    margin-bottom: 20px;
+}
+
+.main .i2 {
+    width: 73%;
+    padding-top: 73%;
+    margin-bottom: 20px;
+}
+
+.main .i3 {
+    width: 73%;
+    padding-top: 73%;
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+.f1 {
+    width: 100%;
+    padding: 50px 0 40px 0;
+    background-color: #161515;
+}
+
+.f1 h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.f1 p {
+    font-size: 25px;
+    font-family: tc;
+}
+
+.f2 {
+    width: 100%
+    overflow: hidden;
+}
+
+.f2 .left {
+    display: block;
+    float: left;
+    font-family: tc;
+    font-size: 25px;
+    color: white;
+    width: 41.2%;
+    padding: 25px 0 30px 17px;
+}
+
+.f2 ul {
+    width: fit-content;
+    float: right;
+    padding-right: 62px;
+    padding-top: 10px;
+}
+
+.bgimg {
+    margin-top: 12px;
+    width: 56px;
+    float: right;
+    padding-top: 11px;
+}
+
+.f2 ul li a {
+    line-height: 85px;
+    padding-left: 20px;
+}
+
+.bgimg img {
+    width: 100%;
+    margin-bottom: 28px;
+    line-height: 30px;
+}
+
+.p1 {
+    display: none;
+}
+
+footer div {
+    background-color: #2B2B2B;
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+
+.p2 {
+    display: block;
+    text-align: center;
+    font-family: calibri;
+    color: white;
+    font-size: 20px;
+}
+}
+
+/*PC*/
+@media only screen and (min-width: 1000px) {
+
+header {
+    height: 100px;
+} 
+
+header .header {
+    font-size: 30px;
+    margin: 30px 0 ;
+    text-align: left;
+    padding: 0px 40px 0px 186px;
+    border-right: 3px solid #111;
+    float: left;
+    line-height: 40px;
+}
+
+header nav ul {
+    margin: 33px 0 27px 220px;
+    float: left;
+}
+
+header nav ul li {
+   display: inline-block;
+   float: left; 
+   list-style: none;
+   padding: 0 25px;
+}
+
+header nav ul a {
+    font-size: 18px; 
+    line-height: 30px;
+
+}
+
+/*main*/
+.image {
+    width: 50%;
+    padding-top: 50%;
+    float: left;
+}
+
+.orange {
+    width: 100%;  
+    overflow: hidden; 
+}
+
+.daar {
+    width: 50%;
+    float: right;
+}
+
+.orange article h1 {
+    font-size: 45px;
+    color: white;
+    padding-bottom: 75px;
+    padding-top: 200px;
+    text-align: left;
+    padding-left: 74px;
+}
+
+.orange article h2 {
+
+    padding-left: 74px;
+    padding-right: 41px;
+    width: 78.3%;
+    font-size: 20px;
+}
+
+.orange article div {
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 74px;
+}
+
+.orange article div a {
+    font-family: times-new-roman;
+    font-size: 20px;
+}
+
+.main {
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.main h2 {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-size: 56px;
+    text-align: center;
+}
+
+.main p {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 70px;
+}
+
+.main .i1 {
+    width: 21.6%;
+    padding-top: 21.6%;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+    margin-left: 7.5%;
+    margin-right: 10.05%;
+}
+
+.main .i2 {
+    width: 21.6%;
+    padding-top: 21.6%;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+}
+
+.main .i3 {
+    width: 21.6%;
+    padding-top: 21.6%;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+}
+
+/*footer*/
+
+}
+
